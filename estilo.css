@@ -1,0 +1,65 @@
+body {
+    background-image: url("fundo.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover 100%;
+    background-color: deeppink;
+}
+
+h1 {
+    font-weight: 100;
+    font-family: cursive;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 275px;
+}
+
+input {
+    text-align: center;
+    padding: 12px 15px 12px 15px;
+    font-family: cursive;
+    border-left: white;
+    border-right: white;
+    border-top: white;
+    border-bottom-color: white;
+    background-color: transparent;
+    border-radius: 40px;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+button {
+    border: none;
+    font-family: cursive;
+    background-color: deeppink;
+    text-align: center;
+    padding: 12px 15px 12px 15px;
+    border-radius: 40px;
+    color: white;
+    width: 60%;
+}
+
+form {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+a {
+    color: purple;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
